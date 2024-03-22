@@ -1,0 +1,11 @@
+{% autoescape off %}
+
+HI {{ user.first_name }},
+
+Thank you for your order. Your order has been received and is now being processed. Your order details are shown below for your reference:
+
+Order: #{{ order.order_number }}
+
+
+
+{% endautoescape %}
